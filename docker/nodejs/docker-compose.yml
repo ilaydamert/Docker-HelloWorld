@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  staj:
+    image: nodejs
+    container_name: nodejs
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 5555:5555
