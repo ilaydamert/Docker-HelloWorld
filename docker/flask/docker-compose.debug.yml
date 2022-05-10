@@ -12,4 +12,4 @@ services:
       - 4444:4444
       - 5678:5678
     environment:
-      - FLASK_APP=staj.py
+      - FLASK_APP=hello-world.py
