@@ -3,7 +3,7 @@ var options = {method: 'GET' }
 
 
 var server = http.createServer(function (req, res) {
-    if(req.url==='/staj'){
+    if(req.url==='/node'){
         res.write('Hello world from Node.JS!')
         res.end();
     }
